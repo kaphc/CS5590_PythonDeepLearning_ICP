@@ -1,7 +1,7 @@
 # import libraries
 import pandas as pd
 
-# read csv file using pandas library (pd.read_csv
+# read csv file using pandas library (pd.read_csv)
 train_df = pd.read_csv("data/train.csv")
 
 # find correlation using grouping by 'Sex' and finding mean and sorting
