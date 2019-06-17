@@ -1,54 +1,37 @@
-class Employee():
-    employeeCount = 0
-    totalSalary = 0
+class employee:
+    counter = 0
+    salary_sum = 0
 
-    def _init_(self, employeeId, name, salary, family):
-        self.eid = employeeId
-        self.name = name
-        self.salary = salary
-        self.family = family
-        Employee.employeeCount += 1
-        Employee.totalSalary += self.salary
+    def __init__(self, n, f, s, d):
+        self.name = n
+        self.family = f
+        self.salary = s
+        self.department = d
+        employee.counter = employee.counter + 1
+        employee.salary_sum = employee.salary_sum + s
 
-    def displayEmployee(self):
-        print("\n eid : ", self.eid, "\n Name : ", self.name, "\n Salary: ", self.salary, "\n family: ", self.family)
+    def avg_salary(self):
+        average_salary = self.salary_sum / self.counter
+        print("average salary is " + str(average_salary))
 
-
-class FullTimeEmp(Employee):
-    def _init_(self, employeeId, name, salary, family, exp):
-        Employee._init_(self, employeeId, name, salary, family)
-        self.exp = exp
-
-    def displayEmployee(self):
-        print("\n eid : ", self.eid, "\n Name : ", self.name, "\n Salary: ", self.salary, "\n Family: ", self.family,
-              "\n Experience:", self.exp)
+    def display(self):
+        print("name:" + self.name, "family_name:" + self.family, "salary:" + str(self.salary),
+              "department:" + self.department)
 
 
-details = ["Emp ID", "Name", "Salary", "Family Members", "Experience"]
-m = 4
-n = int(input('number of employees : '))
-matrix = [[0 for j in range(m)] for i in range(n)]
-for i in range(0, n):
-    for j in range(0, m):
-        print('Employee: ', i + 1, '\ndetail: ', details[j])
-        matrix[i][j] = input()
-# print(matrix)
-for i in range(0, n):
-    emp1 = Employee(int(matrix[i][0]), matrix[i][1], int(matrix[i][2]), int(matrix[i][3]))
-    emp1.displayEmployee()
+class fulltime_employee(employee):
+    def __init__(self, n, f, s, d):
+        employee.__init__(self, n, f, s, d)
 
-matrix2 = []
-m = 5
-n = int(input('number of FullTime employees : '))
-matrix2 = [[0 for j in range(m)] for i in range(n)]
-for i in range(0, n):
-    for j in range(0, m):
-        print('FullTimeEmployee: ', i + 1, ' detail: ', details[j])
-        matrix2[i][j] = input()
-# print(matrix2)
-for i in range(0, n):
-    emp2 = FullTimeEmp(int(matrix2[i][0]), matrix2[i][1], int(matrix2[i][2]), int(matrix2[i][3]), int(matrix2[i][4]))
-    emp2.displayEmployee()
+    e1 = employee("Kavin Kumar", "Arumugam", 2000, "IT")
+    e2 = employee("Joe", "Blake", 1000, "HR")
+    e3 = employee("John", "Smith", 5000, "IT")
+    e1.display()
+    e2.display()
+    e3.display()
 
-print("Total Employees(with Full Time) %d" % Employee.employeeCount)
-print("Average salary of the employees is", (Employee.totalSalary / Employee.employeeCount))
+
+e4 = fulltime_employee("Tom", "Jerry", 4000, "Electrical")
+e4.display()
+print("number of employees:" + str(employee.counter))
+employee.avg_salary(employee)
