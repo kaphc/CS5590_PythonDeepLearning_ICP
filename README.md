@@ -10,8 +10,8 @@ video : [https://www.youtube.com/watch?v=NmU56kIGrpc] <br>
 
 ICP-3 <br>
 wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/ICP-3] <br>
-video : [https://www.youtube.com/watch?v=E-D2ud8BCj8] <br>
+video : [https://www.youtube.com/watch?v=H9vKNaTa5Os] <br>
 
 ICP-4 <br>
 wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/ICP-4] <br>
-video : [https://www.youtube.com/watch?v=NmU56kIGrpc] <br>
+video : [https://www.youtube.com/watch?v=mUB33UnD-qs] <br>
