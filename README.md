@@ -23,3 +23,7 @@ video : [https://www.youtube.com/watch?v=g0s-_yfjQck] <br>
 ICP-6 <br>
 wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/ICP-6] <br>
 video : [https://www.youtube.com/watch?v=8dDuxEMV414] <br>
+
+ICP-7 <br>
+wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/ICP-7] <br>
+video : [https://www.youtube.com/watch?v=r0SclcvIqHE] <br>
