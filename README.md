@@ -1,5 +1,7 @@
 # CS5590_PythonDeepLearning_ICP
 
+## PYTHON
+
 ICP-1 <br>
 wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/ICP-1] <br>
 video : [https://www.youtube.com/watch?v=E-D2ud8BCj8] <br>
@@ -27,3 +29,9 @@ video : [https://www.youtube.com/watch?v=8dDuxEMV414] <br>
 ICP-7 <br>
 wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/ICP-7] <br>
 video : [https://www.youtube.com/watch?v=r0SclcvIqHE] <br>
+
+## DEEP LEARNING
+
+ICP-1 <br>
+wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/DL_ICP-1] <br>
+video : [https://www.youtube.com/watch?v=SK392MUEVlc] <br>
