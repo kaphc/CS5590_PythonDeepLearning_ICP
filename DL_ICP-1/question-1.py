@@ -14,8 +14,8 @@ np.random.seed(155)
 my_first_nn = Sequential()
 
 my_first_nn.add(Dense(40, input_dim=8, activation='relu'))
-my_first_nn.add(Dense(40, input_dim=8, activation='relu'))
-my_first_nn.add(Dense(40, input_dim=8, activation='relu'))
+my_first_nn.add(Dense(40, input_dim=40, activation='relu'))
+my_first_nn.add(Dense(40, input_dim=23, activation='relu'))
 my_first_nn.add(Dense(40, input_dim=8, activation='relu'))
 
 my_first_nn.add(Dense(1, input_dim=8, activation='sigmoid'))
