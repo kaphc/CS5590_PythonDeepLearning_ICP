@@ -47,3 +47,6 @@ video : [https://www.youtube.com/watch?v=4EMkC1KV3dk] <br>
 ICP-4<br>
 wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/DL_ICP-4] <br>
 video : [https://www.youtube.com/watch?v=4EMkC1KV3dk] <br>
+ICP-4<br>
+wiki : [https://github.com/kaphc/CS5590_PythonDeepLearning_ICP/wiki/DL_ICP-5] <br>
+video : [https://www.youtube.com/watch?v=4EMkC1KV3dk] <br>
